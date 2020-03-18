@@ -1,0 +1,116 @@
+.pricing {
+  background-color: gray;
+  color: white;
+  position: relative;
+  display: table;
+  content: "";
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.navy-line {
+  font-size: 28px;
+  font-weight: bold;
+  color: teal;
+
+}
+
+.pricing-plan {
+  background-color: white;
+  text-align: center;
+}
+
+.pricing-title {
+  color: white;
+  background-color: teal;
+}
+
+.pricebasic {
+  text-align: center;
+  text-decoration-style: none;
+}
+
+
+.price {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  max-width: 55%;
+  min-width: 55%;
+  max-height: auto;
+  min-height: auto;
+}
+
+#btn-close {
+  position: absolute;
+  right: -3vw;
+  border-radius: 50%;
+  border: 1px solid teal;
+  margin: 5px;
+  padding: 10px;
+  background: linear-gradient(teal, white);
+}
+
+
+@media (max-width: 568px) {
+
+  .pimg1,
+  .pimg11,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
+  }
+
+  .price {
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: auto;
+    min-height: auto;
+  }
+
+  #btn-close {
+    max-width: 10%;
+    min-width: 10%;
+    position: absolute;
+    right: 0vw;
+    border-radius: 50%;
+    border: 1px solid teal;
+    margin: 3px;
+    padding: 0px;
+    background: linear-gradient(teal, white);
+    text-align: center;
+  }
+
+  .btn {
+    max-width: 100px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .logo {
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+  }
+
+  .name {
+    font-family: lobster;
+    font-size: 4.5em;
+    color: white;
+  }
+
+}
