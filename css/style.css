@@ -61,6 +61,10 @@ a {
   background-attachment: fixed;
 }
 
+.background{
+  background-image: url('../img/h1.jpeg');
+}
+
 .pimg1 {
   background-image: url('../img/h1.jpeg');
   min-height: 80%;
